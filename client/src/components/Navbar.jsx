@@ -46,14 +46,14 @@ const Navbar = () => {
         <div className="text-xl flex flex-col lg:flex-row lg:justify-center lg:space-x-4 mt-4 lg:mt-0">
           <Link
             to="/"
-            className="hover:underline px-2 py-1 text-white"
+            className="hover:underline px-2 py-1 text-black"
             onClick={() => setMenuOpen(false)}
           >
             My Team
           </Link>
           <Link
             to="/market"
-            className="hover:underline px-2 py-1 text-white"
+            className="hover:underline px-2 py-1 text-black"
             onClick={() => setMenuOpen(false)}
           >
             Transfer Market
