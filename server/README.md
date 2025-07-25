@@ -1,4 +1,9 @@
-## Features
+## Notes
+
+- Make sure your local MongoDB is running and accessible.
+- NodeJS installed in your device. 
+
+- ## Features
 
 - User registration and authentication
 - Random team and player generation (with images)
@@ -56,10 +61,3 @@ The server will run on `http://localhost:5000` by default.
 - **Budget management:** 20 minutes
 - **Testing & bug fixes:** 30 minutes
 - **Documentation (README):** 10 minutes
-
-
-## Notes
-
-- Make sure MongoDB is running and accessible.
-- Add your authentication middleware in `middlewares/auth.js` for protected routes.
-- Player images are generated using [robohash.org](https://robohash.org/).
